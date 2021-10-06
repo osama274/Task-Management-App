@@ -1,0 +1,882 @@
+[
+    {
+        "body": "- so that you can paste in ItemType Definition Block along with data and ItemType will be created and data added",
+        "category": "newFeature",
+        "extras": "",
+        "id": 1,
+        "rank": "2.7",
+        "systemWhenCreated": "2019-08-14 10:46:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Enable Batch Import to import Item Type Definition Blocks as well"
+    },
+    {
+        "body": "- convert the password via MD5",
+        "category": "newPage",
+        "extras": "",
+        "id": 2,
+        "rank": "4.6",
+        "systemWhenCreated": "2019-08-14 10:46:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Create User"
+    },
+    {
+        "body": "- remove SystemTexts\t\n- replace it with ItemType Dynamic Texts\n- has accessGroups and so shows an edit button only for those in that accessGroup\n- make an example of a number of texts ",
+        "category": "newShowcase",
+        "extras": "$idCode=showcaseDynamicText",
+        "id": 3,
+        "rank": "3.4",
+        "systemWhenCreated": "2019-08-14 10:48:46",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Dynamic texts"
+    },
+    {
+        "body": "- specificy accessGroups\n- anyone in that group can edit the full text on that page in markdown",
+        "category": "newCreatePage",
+        "extras": "$dependsOn=showcaseDynamicText",
+        "id": 4,
+        "rank": "3.2",
+        "systemWhenCreated": "2019-08-14 10:48:48",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Editable Markdown Page"
+    },
+    {
+        "body": "Include confirming e-mail, etc.",
+        "category": "newFeature",
+        "extras": "",
+        "id": 5,
+        "rank": "3.1",
+        "systemWhenCreated": "2019-08-14 10:48:49",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Make user signup process"
+    },
+    {
+        "body": "- specificy accessGroups\n- anyone in that group can edit the full text on that page in markdown",
+        "category": "newCreatePage",
+        "extras": "$dependsOn=showcaseDynamicText",
+        "id": 6,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 10:48:51",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Editable Outline Page"
+    },
+    {
+        "body": "- enable Pages to be exported as .zip files\n- when you download them and put them in the `systemImport` folder, they are automatically imported at next page load (when in developing mode)",
+        "category": "newFeature",
+        "extras": "",
+        "id": 7,
+        "rank": "2.9",
+        "systemWhenCreated": "2019-08-14 10:48:51",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Import/Export Downloadable Pages"
+    },
+    {
+        "body": "- specificy accessGroups\n- anyone in that group can edit the full text on that page in markdown",
+        "category": "newCreatePage",
+        "extras": "$dependsOn=showcaseDynamicText",
+        "id": 8,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-14 10:48:51",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Editable Markdown Page"
+    },
+    {
+        "body": "- enable DataTypes to be exported as .zip files\n- when you download them and put them in the `systemImport` folder, they are automatically imported at next page load (when in developing mode)",
+        "category": "newFeature",
+        "extras": "",
+        "id": 10,
+        "rank": "2.9",
+        "systemWhenCreated": "2019-08-14 10:48:51",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Import/Export Downloadable DataTypes"
+    },
+    {
+        "body": "- make a panel that allows various actions to be executed on ItemTypes, e.g.\n\t- based on what items are showing (based on search, or all)\n\t\t- export to Datapod Item Transfer file\n\t\t\t- has Item Type Definition Block \n\t\t\t- on import, ItemType will be created if not present\n\t\t- export to Excel sheet\n\t\t- copy to clipboard (or for copy and paste) as Datapod Item Editing Text\n\t\t- export as XML\n\t\t- export as JSON\n\t\t- export as CVS\n\t\t- create Display <itemType> Page\n\t\t- fill with dummy data\n\t\t\t- add SystemExtras to track that this is dummy data so it is not displayed, and can easily be deleted, even when other data is in the database table\n\t\t- add field\n\t\t- delete field",
+        "category": "newFeature",
+        "extras": "",
+        "id": 11,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 11:05:39",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Manage ItemType Page Panel"
+    },
+    {
+        "body": "- build this in Showcase: Extras\n- make Extras DataType\n- make this a System field called System Extras so it is on every Item Type\n- make \"itemExtras\" convert to \"Item Extras;extras\"\n- make easy Item level functions to save and get data from Extras\n- enable extras to be converted into full fields",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 12,
+        "rank": "2.8",
+        "systemWhenCreated": "2019-08-14 11:05:39",
+        "systemWhoCreated": "systemUnknown",
+        "title": "System Extras"
+    },
+    {
+        "body": "- gives search box, searches through all code in site\n- update button to reread code into database\n- filters: [x] Quick Tools, [x] Method names, [x] comments",
+        "category": "newPage",
+        "extras": "",
+        "id": 13,
+        "rank": "1.9",
+        "systemWhenCreated": "2019-08-14 11:05:39",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Code Explorer"
+    },
+    {
+        "body": "- on ItemType Display Page, add a regex search-and-replace so that text searched is highlighted",
+        "category": "newFeature",
+        "extras": "",
+        "id": 14,
+        "rank": "1.3",
+        "systemWhenCreated": "2019-08-14 11:10:22",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Highlighted Search"
+    },
+    {
+        "body": "\t- i.e. \"item\" will not be used on the frontend anymore\n\t- frontend: it will always get e.g. howtoRecords and will be: v-for=\"object in howToObjects\"\n\t- by \"item\" and \"items\" is always meant the class item or items itself\n\t\t- the class \"items\" has a collection of objects\n\t\t- howtoObjects means an array of item objects\n\t\t- howtos means the class which contains the array of item objects\n\t\t- howtoRecords means an array of item records stright from the database\n\t- or simply keep it the way it is and document it, e.g.\t\n\t\t- backend itemObjects (e.g. howtoObjects) get flattened into frontend items (e.g. v-for=\"item in howtoItems), i.e. have their flat data but not the methods to call\n\t\t- if you send something to the frontend that is not a rich item or collection of items, then it should be called a record, e.g. v-for=\"record in infoRecords\"\n\t\t- or perhaps we need a new word that refers to a flat time on the front end, e.g. \n\t\t\t- unit, howtoUnit\n\t\t\t- fitem = flatitem\n\t\t\t- or flitem\n\t\t\t- or monad, e.g. howtoMonads\n\t\t\t- or thing, e.g. howtoThings\n\t\t\t- or flatitem, e.g. howtoFlatitem\n\t\t\t- or flat, e.g. howtoFlats\n\t\t\t- or ding, e.g. howtoDing\n\t- or (the way it is), simply understand that bits of information that arrive from the backend onto the front end are called \"item\" and \"items\" e.g. v-for=\"item in howtoItems\", and allHowtoItems and filteredHowtoItems\n\t- to example this, use this example:\n\t\t-----------------------------------------\n\t\tconst allSearchObjects = [];\n\t\tconst object = {\n\t\t\tid: 1,\n\t\t\tidCode: 'nnn',\n\t\t\ttitle: 'This is the title.',\n\t\t\tsearchText: function () {\n\t\t\t\treturn this.title + '|' + this.idCode;\n\t\t\t}\n\t\t};\n\t\tqdev.debug('searchText', object.searchText());\n\t\tallSearchObjects.push(object);\n\t\tthat.responseData.allSearchItems = allSearchObjects;\t\t\n\t\t-----------------------------------------",
+        "category": "refactoring",
+        "extras": "",
+        "id": 15,
+        "rank": "3.8",
+        "systemWhenCreated": "2019-08-14 11:33:14",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Make item/object/record nomenclature consistent on frontend and backend"
+    },
+    {
+        "body": "- mainly in data access, a number of a various attempts were made and left in code\n\t- some of the code areas are instances of callback hell, two or three levels deep\n\t- try to replace these with ES6 promises\n- also, restructure all complex procedures such as ItemType creation so that these can be automatically tested, e.g. create an ItemType, run tests to make sure everything on it works, add/edit/delete items, then delete ItemType and check to make sure no residue exists",
+        "category": "refactoring",
+        "extras": "",
+        "id": 16,
+        "rank": "3.3",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Restructure or remove all callback code and replace with ES6 promises if possible"
+    },
+    {
+        "body": "- experiment with using DataTypes to sniff out fields, items and ItemTypes to import\n- examples:\n\t- 4k\n\t\t- distance\n\t\t- 4 kilometers\n\t\t- 4K\n\t\t- 4,000 meters\n\t- jan 4\n\t\t- date\n\t\t- Friday, January 4, 2019\n\t\t- 218 days ago\n\t- red\n\t\t- color\n\t\t- `#FF0000`\n\t- 4.1\n\t\t- rank\n\t\t- 4 out of 5 stars\n\t\t- 82% satisfaction\n\t\t- ****(*)\n\t- 312\n\t\t- whole number\n\t\t- integer\n\t\t- number of book pages\n\t- yes, true, ok, no, 1, 0 \n\t\t- boolean (DataType: yesNo)",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 17,
+        "rank": "3.8",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Data Sniffing"
+    },
+    {
+        "body": "- create showcase to test this\n- examples\n\t- pageItems search xml\n\t- pageItems search 'test page' order by displayOrder\n\t- pageItem where idCode = home\n\t- pageItem where id = 33\n\t- testServers where numberOfCpus > 3 and kind = virtual order by freeSpace desc\n\t- testServers where title.contains('the')\n\t- testServers where title.doesNotContain('the')\n\t- techItems order by rank desc first 10\n\t- techItems order by rank desc last 10\n\t- techItems where random 5\n\t- techItem where random\n\t\t- random techItem\n\t\t- 3 random techItems\n\t\t- 3 random techItems where category = javascript\n\t- techItems best 10 order by title\n\t\t- (works on items with rank)\t\n\t- techItems worst 10 order by title\n\t\t- (works on items with rank)\t\t\n- Datapod Global Search\n\t- 1. if it's not a recognizable DQL statement, it will be searched\n\t- 2. if it is recognizable DQL, it will be executed\n\t- 3. if you want to search for a DQL statements then, e.g. s/pageItems\n\t- in search fields e.g. on manage page, one could type in:\n\t\t- dql/pageItem where id=33\n\t\t- dql/pageItemd.33\n\t\t- pageItems orderby title as xml\n\t\t[] then options:\n\t\t\t- export: XML, JSON, Datapod, SQL, CSV, HTML\n\t- examples\n\t\t- servers where kind = virtual as csv",
+        "category": "refactoring",
+        "extras": "",
+        "id": 18,
+        "rank": "3.8",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Standardize DQL syntax "
+    },
+    {
+        "body": "- adds 100, 1000, 10000000 records and displays, shows loading speeds in seconds",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 19,
+        "rank": "3.3",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Stress Test"
+    },
+    {
+        "body": "- that creates a howto, copies the outline to the howto content, deletes the foray outline content, and makes a reference to the how (so that you still have a record of what forays were finished and when)",
+        "category": "tech",
+        "extras": "",
+        "id": 20,
+        "rank": "4.5",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "In forays, make a `Create Howto` button "
+    },
+    {
+        "body": "- use the ES6 arrow functionality everywhere so that that = this isn't necessary anymore",
+        "category": "refactoring",
+        "extras": "",
+        "id": 21,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-14 12:19:03",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Replace all that=this with ES6 arrow functions"
+    },
+    {
+        "body": "4.3",
+        "category": "bugFix",
+        "extras": "",
+        "id": 22,
+        "rank": "",
+        "systemWhenCreated": "2019-08-14 12:40:57",
+        "systemWhoCreated": "systemUnknown",
+        "title": "- completely test basic Datapod on smartphone"
+    },
+    {
+        "body": "\t- dateTime (complete)\n        - 2019-04-12 12:13:08\n\t- time\n    - date\n        - 2019-04-12\n        - mar 5 (2019)\n        - apr 2\n\t- duration\n\t\t- 1h\n\t\t- 3h15s\n\t\t- 3:15\n\t\t- 04:02:04\n        - 00:23:33.2343\n        - 1s\n        - 25s\n        - 3032s\n        - 838m\n        - 23:33 (23 minutes)\n        - 23m\n        - 23:33 = 00:23:33 = 23m33s\n        - 02:23:05 = 2h23m5s\n    - rank\n        - 0\n        - 1.3\n        - 2.5 default\n        - 5\n        - 4.7\n        --> stars (with halves)\n    - distance\n        - 5k\n        - 10k\n        - 800m\n        - 1.8 K\n    - yesno\n        - yes\n        - no\n        - ja\n        - nein\n        - 1\n        - 0\n        - ok\n    - list (multiple choice)\n        - green, red, blue, yellow",
+        "category": "newDataType",
+        "extras": "",
+        "id": 23,
+        "rank": "4.5",
+        "systemWhenCreated": "2019-08-14 12:40:57",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Create all time DataTypes"
+    },
+    {
+        "body": "- integer = a postiive or negative number that is not a fraction or decimal: ..., -3, -2, -1, 0, 1, 2, 3, ...\n\t- wholeNumber = all non-negative integers: - 0, 1, 2, 3, etc.\n\t\t- age\n\t\t- numberOfBookPages\n\t- naturalNumber = non-zero positive integers: - 1, 2, 3, etc.\n- decimal = -3.1, -1.8987, 0, 1, 1.2323, 23.1\n\t- money = -34.23, 0, 152.00\n\t\t- dollar\n\t\t- euro\n\t- rank = 0, 0.5, 1, 1.6, 2, 3.5, 4.3, 5 (stars)\n\t- temperature",
+        "category": "newDataType",
+        "extras": "",
+        "id": 24,
+        "rank": "4.3",
+        "systemWhenCreated": "2019-08-14 12:40:57",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Create all number DataTypes"
+    },
+    {
+        "body": "\t- 10k\n\t- 4k\n\t- 5.4k\n\t- 800m\n\t- 5cm\n\t- 3mm",
+        "category": "newDataType",
+        "extras": "",
+        "id": 25,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-14 12:40:57",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType: distance"
+    },
+    {
+        "body": "- ask for list of item types\n- file called `search.htm` is created with all data as JSON in JavaScript",
+        "category": "newCreatePage",
+        "extras": "",
+        "id": 26,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Stand-Alone Search Page"
+    },
+    {
+        "body": "- example commands\n\t- dpod /help\n\t\t- show examples\n\t- dpod newPage Information backend\n\t- dpod newItemType Notes \"idCode, Title, Body;outline\" -dummy:10\n\t- dpod deletePage Information",
+        "category": "newFeature",
+        "extras": "",
+        "id": 27,
+        "rank": "",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Datapod CLI (Command Line Interface)"
+    },
+    {
+        "body": "- area that enables developer to search for code chunks for that item type, e.g.\n\t- load all items from database\n\t- foreach on item types\n\t- get records, itemTypeObjects, etc.\n- also: ItemType Definition Block",
+        "category": "newFeature",
+        "extras": "",
+        "id": 28,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "ItemType Manage Page: Code chunks"
+    },
+    {
+        "body": "- change to: Markdown Formatting\n- also pictures\n\t- do with ShowcaseBooks\n- add button syntax: [[Create]] and [[CTRL-C]]",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 29,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Outline Formatting"
+    },
+    {
+        "body": "- strips site down to upload\n\t- delete anything marked dev\n- copies all files then deletes what is not necessary\n\t- logs user out\n\t- runs script to genericize\n- option to upload via FTP\n",
+        "category": "newFeature",
+        "extras": "",
+        "id": 30,
+        "rank": "2.0",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Publish site"
+    },
+    {
+        "body": "- developer can enter text in code, e.g.\n\t- //code.foreach.pageItems\n\t- //code.loadAll.pageItems\n- and refreshing the page expands this code based on a code block",
+        "category": "newFeature",
+        "extras": "",
+        "id": 31,
+        "rank": "2.5",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Code Expanders"
+    },
+    {
+        "body": "- add the non-flicker `$(\"#app\").fadeIn(100);` solution to each page and each creation-page template\n- see `showcaseSliders` for an example",
+        "category": "refactoring",
+        "extras": "",
+        "id": 32,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Add fadeIn() to each page"
+    },
+    {
+        "body": "\t- set at site or ItemType level\n\t- be able to set them as cache\n\t- they are then written to a file that can be accessed via JSON\n\t\t- enables direct access of data \n\t- do speed testing",
+        "category": "newFeature",
+        "extras": "",
+        "id": 33,
+        "rank": "3.4",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Item Type Caching "
+    },
+    {
+        "body": "- make Create Page: \n\t- base this on Showcase: Page State",
+        "category": "newCreatePage",
+        "extras": "",
+        "id": 34,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Display Data from SQL Statement with Page State"
+    },
+    {
+        "body": "- first make **Showcase: DataType YesNo**\n- names for field description: yesNo, bool, boolean\n- valid values\n\t- affirmative\n\t\t- yes\n\t\t- 1\n\t\t- ok\n\t- negative\n\t\t- no\n\t\t- 0\n\t\t- nope\n- form field\n\t- checkbox with clickable label",
+        "category": "newDataType",
+        "extras": "",
+        "id": 35,
+        "rank": "4.9",
+        "systemWhenCreated": "2019-08-14 14:11:15",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType: yesNo"
+    },
+    {
+        "body": "- create document types\n\t- e.g. data/documentTypes/books\n\t- one file for each classes\n\t- each file has notes for the class with syntax to record:\n\t\t- flashcards\n\t\t- todos\n\t\t- etc.",
+        "category": "newFeature",
+        "extras": "",
+        "id": 36,
+        "rank": "2.8",
+        "systemWhenCreated": "2019-08-14 14:29:59",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DocumentTypes"
+    },
+    {
+        "body": "- use ShowcaseFlashcards\n\t- with category\n- sign in as one player\n- the next person to go to page will see player waitig, join\n- each chooses category\n- answer as fast as possible till 10\n- move player from left to right, etc.\n- show them typing at the same time",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 37,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-14 14:29:59",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Two-person interactive game"
+    },
+    {
+        "body": "- get best-guess title\n- get best-guess category\n- if there is a markdown or outline, then parse and display only it ",
+        "category": "newFeature",
+        "extras": "",
+        "id": 38,
+        "rank": "4.3",
+        "systemWhenCreated": "2019-08-14 14:29:59",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Smarten the Create Search-Display-and-Edit-Item-Type page "
+    },
+    {
+        "body": "- at bottom of each page\n\t- change title, menu, accessGroups, etc. reload page to reflect in menu\n\t- clone page with new title\n\t- delete page\n\t- how long it took the page to load\n\t- the libraries that the page uses",
+        "category": "newFeature",
+        "extras": "",
+        "id": 39,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 14:53:30",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Page Developer Panel"
+    },
+    {
+        "body": "- use this picker: https://uxsolutions.github.io/bootstrap-datepicker",
+        "category": "newDataType",
+        "extras": "",
+        "id": 40,
+        "rank": "3.1",
+        "systemWhenCreated": "2019-08-14 14:53:30",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataTypes: DateRange, Date, DateTime, Time"
+    },
+    {
+        "body": "- form control is multichoice\n\t- checkboxes\n\t- multichoice dropdown\n- save as e.g.: red, brown, green",
+        "category": "newDataType",
+        "extras": "",
+        "id": 41,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 14:53:30",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType: List"
+    },
+    {
+        "body": "- edit field name\n- edit field order\n- delete field\n- added field",
+        "category": "newFeature",
+        "extras": "",
+        "id": 42,
+        "rank": "3.3",
+        "systemWhenCreated": "2019-08-14 14:55:43",
+        "systemWhoCreated": "systemUnknown",
+        "title": "ItemType Manage Page:  Edit and Delete Fields"
+    },
+    {
+        "body": "- process them same as in form preview",
+        "category": "newFeature",
+        "extras": "",
+        "id": 43,
+        "rank": "3.9",
+        "systemWhenCreated": "2019-08-14 15:09:00",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Batch Import: show previews of outline and markdown datatypes"
+    },
+    {
+        "body": "- form control: upload file(s)",
+        "category": "newDataType",
+        "extras": "",
+        "id": 44,
+        "rank": "2.3",
+        "systemWhenCreated": "2019-08-14 15:09:00",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataTypes: File, Files"
+    },
+    {
+        "body": "- bring everything the developer would want to do on one panel\n- modes\n\t- normal mode: only top options\n\t- expert mode shows all options",
+        "category": "newFeature",
+        "extras": "",
+        "id": 45,
+        "rank": "3.5",
+        "systemWhenCreated": "2019-08-14 15:09:00",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Developer Panel"
+    },
+    {
+        "body": "- php page that gets data from sqlite database",
+        "category": "newFeature",
+        "extras": "",
+        "id": 46,
+        "rank": "3.2",
+        "systemWhenCreated": "2019-08-14 15:11:13",
+        "systemWhoCreated": "systemUnknown",
+        "title": "ItemType Manage Page:  create stand-alone PHP page"
+    },
+    {
+        "body": "- get 10 samples working from https://canvasjs.com\n- make Create Page: Page with Canvas\n\t- background data",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 47,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Canvas.js"
+    },
+    {
+        "body": "- ItemType: DataSources\n\t- sqliteMain\n\t\t- data/main.sqlite\n\t- sqliteJimSmith\n\t\t- data/user_jimSmith.sqlite\n\t- mysqlMain\n\t\t- connection, login, password\n\t- textMain\n\t\t- data/main/howtos.txt\n\t- textJimSmith\n\t\t- data/jimSmith/howto.txt\n\t- excelMain\n\t\t- data/main.xls\n\t- urlSecondSite\n\t\t- http://nnnnnn.com/secondSite\n\t\t- readonly",
+        "category": "newFeature",
+        "extras": "",
+        "id": 48,
+        "rank": "3.2",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "ItemType with multiple datasources"
+    },
+    {
+        "body": "- new definition systax:\n\t- Category;list;ItemType:Categories\n\t- will look for idCode, title\n\t\t- or idCode, label\n\t\t- if no idCode, then id",
+        "category": "newFeature",
+        "extras": "",
+        "id": 49,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType List: enable joins to other DataTypes"
+    },
+    {
+        "body": "- change name everywhere",
+        "category": "refactoring",
+        "extras": "",
+        "id": 50,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Replace DataType paragraph with paragraphs"
+    },
+    {
+        "body": "- new definition systax:\n\t- Category;choice;ItemType:Categories\n\t- will look for idCode, title\n\t\t- or idCode, label\n\t\t- if no idCode, then id",
+        "category": "newFeature",
+        "extras": "",
+        "id": 51,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType Choice: enable joins to other DataTypes"
+    },
+    {
+        "body": "- start with [this tutorial](https://hackernoon.com/implementing-a-websocket-server-with-node-js-d9b78ec5ffa8)",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 52,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Web Sockets"
+    },
+    {
+        "body": "- use https://highlightjs.org",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 53,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Examples for formmating code"
+    },
+    {
+        "body": "- instead of having to type in the page name\n- refresh page so menu is refreshed, make experience more smooth",
+        "category": "newFeature",
+        "extras": "",
+        "id": 54,
+        "rank": "4.9",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Delete Page shows list of pages"
+    },
+    {
+        "body": "- get 10 samples working from https://www.chartjs.org\n- make Create Page: Page with Chart\n\t- background data",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 55,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Chart.js"
+    },
+    {
+        "body": "- automate all 8 steps in page creation",
+        "category": "newFeature",
+        "extras": "",
+        "id": 56,
+        "rank": "4.8",
+        "systemWhenCreated": "2019-08-14 15:44:44",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Make page creation automatic"
+    },
+    {
+        "body": "- see: https://www.npmjs.com/package/syntax",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 57,
+        "rank": "2.0",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Color Syntax Coloring"
+    },
+    {
+        "body": "- enable controllers to be accessed not online on loggedIn/notLoggedIn level but accessGroups level",
+        "category": "newFeature",
+        "extras": "",
+        "id": 58,
+        "rank": "4.0",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Protect controllers with AccessGroups"
+    },
+    {
+        "body": "- form: allows you to selected it in public\n- define folder for files to exist in\n- (define this more)",
+        "category": "newDataType",
+        "extras": "",
+        "id": 59,
+        "rank": "0.5",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "DataType: pathAndFileName"
+    },
+    {
+        "body": "- point to:\n\t- Excel file\n\t- sql table output\n\t- CSV files\n\t- XML file\n\t- JSON file\n- the data will be analyzed and bestGuess Item Type Schema and data will be produced",
+        "category": "newFeature",
+        "extras": "",
+        "id": 60,
+        "rank": "2.5",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Item Type Creation with Data Sniffing"
+    },
+    {
+        "body": "- put and maintain code in GitHub",
+        "category": "datapodSite",
+        "extras": "",
+        "id": 61,
+        "rank": "3.1",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Code in GitHub"
+    },
+    {
+        "body": "- http://www.jquery-steps.com",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 62,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: JQuery Steps"
+    },
+    {
+        "body": "- example to send an e-mail from server",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 63,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Email Sender"
+    },
+    {
+        "body": "- get 10 best examples on page from http://dynamicsjs.com",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 64,
+        "rank": "3.5",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Dynamicsjs"
+    },
+    {
+        "body": "- place in the bootstrap_header which shows a message, which will be displayed when the page is refreshed\n- make ItemType\n\t- Application Messages",
+        "category": "newFeature",
+        "extras": "",
+        "id": 65,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Application message area"
+    },
+    {
+        "body": "- make directory: `snapshots`\n- enable developer to make snapshot:\n\t- zip site and put in `snapshots/dpn_snapshot_2019-06-14_22_10_12_beforeAddedServersItemType.zip`\n- enable developer to rolback to previous snapshot\n- in the case that some change makes the appliation unable to start\n\t- include a batch script in the `snapshots` directory, e.g.\n\t\t- restoreSnapshot.js\n\t\t- run it with node restoreSnapshot.js etc.",
+        "category": "newFeature",
+        "extras": "",
+        "id": 66,
+        "rank": "3.3",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Snapshots"
+    },
+    {
+        "body": "- searches through code to find e.g. ununsed classes or unused methods\n- offers to delete them for you\n- create SmartCodeFile and SmartApplication\n- run with unit tests\n- check database: no nulls, if all fields in all item types validate, no extra tables, etc.\nrun with unit tests",
+        "category": "newFeature",
+        "extras": "",
+        "id": 67,
+        "rank": "2.1",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Developer Panel: Integrity Scan"
+    },
+    {
+        "body": "- you can copy a e.g. dpn03010.zip file into the directory `import/`\n- and at the next page refresh, it will show in the Application Message Area that there is a new version to import",
+        "category": "newFeature",
+        "extras": "",
+        "id": 68,
+        "rank": "3.0",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Version Updater"
+    },
+    {
+        "body": "- standardize names for files e.g. fileName, file, relativeDirectory, pathAndFileName, etc.",
+        "category": "refactoring",
+        "extras": "",
+        "id": 69,
+        "rank": "3.8",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Standardize names for files"
+    },
+    {
+        "body": "- make Batch Import the input for everything:\n\t- ItemType creation\n\t- class creation\n\t- PageItem creation\n\t- DataType creation\n\t- ItemType import\n\t- commands",
+        "category": "newFeature",
+        "extras": "",
+        "id": 70,
+        "rank": "2.4",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Global Batch Import"
+    },
+    {
+        "body": "- get 10 examples working",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 71,
+        "rank": "2.1",
+        "systemWhenCreated": "2019-08-14 17:07:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: CoffeeScript"
+    },
+    {
+        "body": "- put validation on ItemType definition blocks, e.g. to catch typos like \"Description:markdown\" instead of \"Description;markdown\"",
+        "category": "enhancement",
+        "extras": "",
+        "id": 72,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-15 09:45:38",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Validate ItemType definition block upon ItemType creation"
+    },
+    {
+        "body": "- in any drop down that has more than 10 items, add a search button at the top to filter and find fast",
+        "category": "newFeature",
+        "extras": "",
+        "id": 73,
+        "rank": "3.7",
+        "systemWhenCreated": "2019-08-15 09:59:08",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Put search in menu dropdown"
+    },
+    {
+        "body": "- the method `refreshUrlFromPageState\n\t- replace the name of the **itemType** e.g. `qsys.changeUrl('documentationSections', this.pageState)`\n\t- with the name of the page, e.g. `documentation`",
+        "category": "bugFix",
+        "extras": "",
+        "id": 74,
+        "rank": "4.8",
+        "systemWhenCreated": "2019-08-15 12:58:40",
+        "systemWhoCreated": "systemUnknown",
+        "title": "In Create Search-Display-and-Edit ItemType Page fix URL redirect"
+    },
+    {
+        "body": "- also when list DataType is finished, do this for multiple item types",
+        "category": "enhancement",
+        "extras": "",
+        "id": 75,
+        "rank": "4.5",
+        "systemWhenCreated": "2019-08-15 12:58:40",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Create Page: make dropdown for ItemType on all pages"
+    },
+    {
+        "body": "- enable syntax in ItemType Definition Block to enable a textarea box to be defined",
+        "category": "enhancement",
+        "extras": "",
+        "id": 76,
+        "rank": "4.3",
+        "systemWhenCreated": "2019-08-15 13:37:32",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Forms: Enable size of textarea boxes to be easily defined"
+    },
+    {
+        "body": "- when using Chrome, clicking on an edit icon and at other times, the browser seems to be loading the page and displays the message \"waiting for available socket\"\n- this seems to work fine with Firefox",
+        "category": "newFeature",
+        "extras": "",
+        "id": 77,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-08-19 12:57:58",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Fix Chrome problem with \"waiting for available socket\""
+    },
+    {
+        "body": "- add ability to say, e.g. `Description;p;$height=500px`",
+        "category": "enhancement",
+        "extras": "",
+        "id": 78,
+        "rank": "4.7",
+        "systemWhenCreated": "2019-08-22 10:02:34",
+        "systemWhoCreated": "systemUnknown",
+        "title": "For Paragraph DataType enable ability to change height"
+    },
+    {
+        "body": "- also: record speed difference, e.g. build in page speed display",
+        "category": "enhancement",
+        "extras": "",
+        "id": 79,
+        "rank": "4.6",
+        "systemWhenCreated": "2019-08-22 10:06:38",
+        "systemWhoCreated": "systemUnknown",
+        "title": "On display page, make single item load only that item, not all items"
+    },
+    {
+        "body": "- e.g. for the ItemType Flashcard, enable `==fc` instead of `==flashcard`",
+        "category": "enhancement",
+        "extras": "",
+        "id": 80,
+        "rank": "4.5",
+        "systemWhenCreated": "2019-08-22 10:33:50",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Enable ItemType items to have alternative codes for import"
+    },
+    {
+        "body": "- both export and import can be text (with schema and items) or a zip file with this file in it and images\n- or full export as zip file with\n\t- images\n\t- display pages, manage pages\n- when you download them and put them in the `\\systemImport` folder, they are automatically imported at next page load (when in developing mode)",
+        "category": "enhancement",
+        "extras": "",
+        "id": 81,
+        "rank": "4.4",
+        "systemWhenCreated": "2019-08-22 10:33:50",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Enable ItemType export and import"
+    },
+    {
+        "body": "- make a simple slider control which changes a vue.js number\n- also one that changes colors",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 82,
+        "rank": "4.7",
+        "systemWhenCreated": "2019-08-22 16:22:00",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Sliders"
+    },
+    {
+        "body": "- as on the Create Page form which has some styling now, also enable full MarkDown",
+        "category": "enhancement",
+        "extras": "",
+        "id": 83,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-08-29 10:46:12",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Enable choice DataType to be styled with MarkDown"
+    },
+    {
+        "body": "- make examples parsing like this:\n\t- `check out !!book(javascriptGoodParts)`\n\t- `here is a ***highlight***` \n\t- `e.g. a flashcard`\n\t- `also looking up in database, etc.`",
+        "category": "newShowcase",
+        "extras": "",
+        "id": 84,
+        "rank": "4.1",
+        "systemWhenCreated": "2019-08-29 13:23:45",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Showcase: Regex Parsing Examples"
+    },
+    {
+        "body": "- base it on Showcase: Regex",
+        "category": "newPage",
+        "extras": "",
+        "id": 85,
+        "rank": "4.5",
+        "systemWhenCreated": "2019-09-03 13:43:59",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Page with Example List"
+    },
+    {
+        "body": "display all available syntax for fields",
+        "category": "enhancement",
+        "extras": "",
+        "id": 86,
+        "rank": "4.9",
+        "systemWhenCreated": "2019-09-10 16:51:12",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Add example text when creating form"
+    },
+    {
+        "body": "- make it a block that can contain any information which will be ignored, e.g.\n\t-----------------------\n\t`` REQUIRED FIELDS: category, title, status\n\t`` VALID VALUES FOR CATEGORY: bugFix | tech | newPage | newCreatePage | refactoring | newDataType | newShowcase | newFeature | enhancement\n\t-----------------------",
+        "category": "enhancement",
+        "extras": "",
+        "id": 87,
+        "rank": "4.65",
+        "systemWhenCreated": "2019-09-11 13:25:48",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Add notes area at the end of item add and update blocks"
+    },
+    {
+        "body": "- enhance the \"manual changes\" feature of version features so that developers can click a button and have the feature be added automatically\n- create SmartCode class with methods like\n\t- `addAboveLine('processForm: function () {', codeBlock)`\n\t- `addAsCss(codeBlock)`\n\t- `addAsMethod(codeBlock)`",
+        "category": "newFeature",
+        "extras": "",
+        "id": 88,
+        "rank": "4.6",
+        "systemWhenCreated": "2019-09-11 13:25:48",
+        "systemWhoCreated": "systemUnknown",
+        "title": "Automatic adding of features to older versions"
+    },
+    {
+        "body": "- allows Extra line to be handles automatically, also with DataType Extras",
+        "category": "tech",
+        "extras": "",
+        "id": 89,
+        "rank": "4.2",
+        "systemWhenCreated": "2019-12-06 13:24:25",
+        "systemWhoCreated": "systemUnknown",
+        "title": "New class: SmartExtras"
+    }
+]

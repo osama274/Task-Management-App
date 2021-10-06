@@ -1,0 +1,67 @@
+.App {
+  padding: 20px;
+  form {
+    border: solid 1px grey;
+    padding: 5px;
+    background-color: rgb(155, 155, 224);
+    margin: 5px;
+    width: 825px;
+    text-align: center;
+    input {
+      margin: 5px;
+      margin-top: 2px;
+      height: 30px;
+      width: 250px;
+    }
+    button {
+      margin-left: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      background-color: rgb(142, 142, 221);
+      border: 1px solid rgb(95, 94, 94);
+      text-align: center;
+    }
+  }
+  .fa-plus{
+    font-size:30px;
+    
+    color: green;
+    
+  }
+  span {
+    color:rgb(203, 203, 224);
+    
+  }
+
+  .message {
+    color: yellow;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 850px;
+    tbody {
+      tr {
+        border: solid 1px rgb(128, 128, 128);
+
+        .id {
+          background-color: rgb(196, 196, 214);
+        }
+        td {
+          border: solid 1px grey;
+          padding: 5px;
+          background-color: #eee;
+          background-color: rgb(175, 175, 228);
+          position: relative;
+          i {
+            position: absolute;
+            right: 5px;
+            color: red;
+            // width: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
