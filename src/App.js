@@ -4,18 +4,28 @@ import "./App.scss";
 
 function App() {
   const [siteTasks, setSiteTasks] = useState(initialSiteTasks);
-  const [category, setCategory] = useState("");
+  console.log(siteTasks);  const [category, setCategory] = useState("");
   const [title, setTitle] = useState("");
   const [message, setMessage] = useState("");
   const inputRef = useRef(null);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("n");
 
   useEffect(() => {
     inputRef.current.focus();
+    setSearchTerm("");
   }, []);
   useEffect(() => {
-    inputRef.current.focus();
-  }, []);
+    setSiteTasks(
+      initialSiteTasks.filter((siteTask) => {
+        if (
+          searchTerm === "" ||
+          siteTask.title.toLowerCase().includes(searchTerm.toLowerCase())
+        ) {
+          return siteTask;
+        }
+      })
+    );
+  }, [searchTerm]);
 
   // save siteTask
   useEffect(() => {
@@ -84,19 +94,14 @@ function App() {
   const handleUpdateCategorySelect = (event) => {
     setCategory(event.target.value);
   };
-
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
   return (
     <div className="App">
       <h1>Website Task Management App</h1>
-      {/* input search */}
-      <input
-        type="text"
-        placeholder="Search ..."
-        onChange={(event) => {
-          setSearchTerm(event.target.value);
-        }}
-      />
-      {siteTasks
+
+      {/* {siteTasks
         .filter((siteTask) => {
           if (!searchTerm === "") {
             return "";
@@ -111,7 +116,7 @@ function App() {
         })
         .map((siteTask, key) => {
           return <div key={key}>{siteTask.title} </div>;
-        })}
+        })} */}
       <form action="" onSubmit={handleAddTask}>
         <select
           name="taskCategory"
@@ -146,10 +151,10 @@ function App() {
           <i class="fas fa-plus"></i>
         </button>{" "}
         <br />
+        <input type="text" placeholder="Search ..." onChange={handleSearch} />
         <span>Number Of Tasks : {siteTasks.length}</span>
         {message !== "" && <p className="message">{message}</p>}
       </form>
-
       <table>
         <tbody>
           {siteTasks.reverse().map((siteTask) => {
