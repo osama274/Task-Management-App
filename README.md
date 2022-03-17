@@ -41,3 +41,4 @@ Create an app that reads a JSON file of site tasks, displays them in a table, an
 - for the general syntax of this, see [this implementation of a dropdown](https://github.com/Entwickler-Club/dpodreact/blob/dev/src/system/components/PageDeletePage.tsx) on the Delete page of Datapod
 
 
+# toAddTask
